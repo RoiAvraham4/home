@@ -5,5 +5,6 @@ def comparison_promt(promt, threshold, bigger_prompt, smaller_prompt):
         print(bigger_prompt)
     else:
         print(smaller_prompt)
+        print("YO")
 
 comparison_promt("בן כמה אתה?", 5, "ילד גדול", "אתה קטן מדי, תחזור פעם הבאה")
